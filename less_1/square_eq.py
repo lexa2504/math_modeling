@@ -4,7 +4,7 @@ print("ax^2 + bx + c = 0")
 print('Введите значение переменной a=')
 a=float(input())
 if a == 0:
-    a=1
+    a = 1
     print("a не должно быть = 0, поэтому по умолчанию будет = 1")
 
 print('Введите значение переменной b=')
@@ -12,7 +12,7 @@ b=float(input())
 print('Введите значение переменной c=')
 c=float(input())
 
-discriminant = (b**2)-(4*a*c)
+discriminant = (b ** 2) - (4 * a * c)
 print("Discr =", discriminant)
 
 if discriminant > 0:
