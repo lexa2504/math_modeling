@@ -13,7 +13,7 @@ print('Введите значение переменной c=')
 c=float(input())
 
 discriminant = (b ** 2) - (4 * a * c)
-print("Discr =", discriminant)
+print("Дискриминант =", discriminant)
 
 if discriminant > 0:
     x1 = (-b + np.sqrt(discriminant)) / (2 * a)
